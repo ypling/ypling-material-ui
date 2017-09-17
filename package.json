@@ -1,0 +1,23 @@
+{
+  "name": "ypling-material-ui",
+  "version": "0.0.1",
+  "description": "UI",
+  "main": "index.js",
+  "repository": "https://github.com/ypling/ypling-material-ui.git",
+  "author": "BrianChen <apple80024@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-2017": "^0.0.0",
+    "babel-preset-react": "^6.24.1",
+    "foundation-sites": "^6.4.3",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "peerDependencies": {
+    "material-ui": "^0.19.1",
+    "react": "^15.6.1"
+  }
+}
