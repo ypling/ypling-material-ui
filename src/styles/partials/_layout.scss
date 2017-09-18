@@ -1,0 +1,21 @@
+.container-padding {
+  padding: 16px;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.horizontal-layout {
+  display: flex;
+  & > * {
+    display: inline-flex;
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+}
+
+.vertical-layout > *:not(:last-child) {
+  margin-bottom: 16px;
+}
