@@ -18,7 +18,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/, loader: 'babel-loader', exclude: /node_modules/,
         options: {
-          presets: ['react', 'es2017']
+          presets: ['react', 'es2017','stage-0']
         }
       },
       { test: /\.(scss|css)$/, loader: ['style-loader', 'css-loader', 'sass-loader'] },
