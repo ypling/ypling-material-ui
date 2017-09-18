@@ -27,7 +27,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
     alias: {
-      'ypling-material-ui': path.resolve(__dirname, '../src/index.js'),
+      'ypling-material-ui': path.resolve(__dirname, '../index.js'),
     },
   },
   plugins: [

@@ -1,6 +1,6 @@
-export ThemeProvider from './components/ThemeProvider';
-export PrimaryButton from './components/PrimaryButton';
-export SecondaryButton from './components/SecondaryButton';
+export ThemeProvider from './src/components/ThemeProvider';
+export PrimaryButton from './src/components/PrimaryButton';
+export SecondaryButton from './src/components/SecondaryButton';
 
 // directly from material-ui
 export AppBar from 'material-ui/AppBar';
