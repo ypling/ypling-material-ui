@@ -1,6 +1,10 @@
 export ThemeProvider from './src/components/ThemeProvider';
 export PrimaryButton from './src/components/PrimaryButton';
 export SecondaryButton from './src/components/SecondaryButton';
+export FormInput from './src/components/FormInput';
+export FormTextArea from './src/components/FormTextArea';
+export FormSelect from './src/components/FormSelect';
+export Tab from './src/components/Tab';
 
 // directly from material-ui
 export AppBar from 'material-ui/AppBar';

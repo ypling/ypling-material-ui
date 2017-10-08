@@ -45,6 +45,9 @@ export default function ThemeProvider(props) {
     datePicker: {
       headerColor: primaryColor || Colors.PRIMARY,
       selectColor: primaryColor || Colors.PRIMARY,
+    },
+    icon: {
+      color: primaryColor,
     }
   };
   return (
