@@ -1,4 +1,5 @@
 $global-width: 100vw;
+$small-font-size: 87.5%;
 @import "~foundation-sites/scss/foundation";
 $grid-column-gutter: (
         small: 0,
@@ -16,4 +17,9 @@ $body-font-family: 'Roboto', sans-serif;
 .foundation {
   @include foundation-forms;
   @include foundation-table;
+}
+
+//customize to work together with material-ui
+small {
+  color: #757575;
 }
